@@ -1,0 +1,7 @@
+id,brand,generic_name,salt,strength,form,generic_label,who_gmp,bioequiv_note
+1,Lipitor,Atorvastatin,Atorvastatin Calcium,20mg,Tablet,Atorvastatin 20mg,yes,FDA-approved generics must show bioequivalence to the brand (80-125% range)
+2,Glucophage,Metformin,Metformin Hydrochloride,500mg,Tablet,Metformin 500mg,yes,FDA-approved generics must show bioequivalence to the brand (80-125% range)
+3,Zestril,Lisinopril,Lisinopril,10mg,Tablet,Lisinopril 10mg,yes,FDA-approved generics must show bioequivalence to the brand (80-125% range)
+4,Protonix,Pantoprazole,Pantoprazole Sodium,40mg,Tablet,Pantoprazole 40mg,yes,FDA-approved generics must show bioequivalence to the brand (80-125% range)
+5,Zoloft,Sertraline,Sertraline Hydrochloride,50mg,Tablet,Sertraline 50mg,yes,FDA-approved generics must show bioequivalence to the brand (80-125% range)
+6,Synthroid,Levothyroxine,Levothyroxine Sodium,50mcg,Tablet,Levothyroxine 50mcg,yes,FDA-approved generics must show bioequivalence to the brand (80-125% range). Narrow therapeutic index drug: ask your prescriber before switching manufacturers

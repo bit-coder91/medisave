@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Catalog and community request access goes through authenticated server functions.
+    // Admin SDK calls use IAM and are not affected by these client rules.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

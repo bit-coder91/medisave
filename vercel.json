@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/compare.py": { "includeFiles": "{data,medisave}/**" },
+    "api/requests.py": { "includeFiles": "medisave/**" },
+    "api/providers.py": { "includeFiles": "{data,medisave}/**" }
+  },
+  "rewrites": [
+    { "source": "/api/v1/compare", "destination": "/api/compare" },
+    { "source": "/api/v1/requests", "destination": "/api/requests" },
+    { "source": "/api/v1/providers", "destination": "/api/providers" }
+  ]
+}

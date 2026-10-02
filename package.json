@@ -1,0 +1,1 @@
+{ "name": "medisave", "private": true, "scripts": { "build:css": "tailwindcss -i ./styles.src.css -o ./public/tailwind.css --minify" }, "devDependencies": { "tailwindcss": "3.4.14" } }

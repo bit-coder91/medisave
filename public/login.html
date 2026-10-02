@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f8fc">
+<title>Sign in | MediSave</title><link rel="stylesheet" href="tailwind.css"><link rel="stylesheet" href="app.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark')}catch(e){}</script>
+<script>
+if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  const analyticsScript = document.createElement("script");
+  analyticsScript.defer = true;
+  analyticsScript.src = "/_vercel/insights/script.js";
+  document.head.appendChild(analyticsScript);
+}
+</script>
+</head>
+<body data-mode="login" class="auth-page">
+<main class="auth-card">
+  <a href="/" class="auth-brand"><svg width="31" height="31" viewBox="0 0 31 31" aria-hidden="true"><rect width="31" height="31" rx="9" fill="var(--primary)"/><path d="M15.5 8v15M8 15.5h15" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>MediSave</a>
+  <h1>Welcome back</h1><p class="auth-copy">Sign in to search India medicine listings and post a medicine request.</p>
+  <form id="auth-form" class="auth-form" novalidate>
+    <label>Email address<input id="email" name="email" type="email" autocomplete="email" required></label>
+    <label>Password<input id="password" name="password" type="password" autocomplete="current-password" minlength="8" required></label>
+    <button id="auth-submit" class="btn-primary auth-submit" type="submit">Sign in</button>
+    <button id="reset-password" class="text-button" type="button">Forgot password?</button>
+    <p id="auth-status" class="auth-status" role="status" aria-live="polite"></p>
+  </form>
+  <p class="auth-foot">New to MediSave? <a href="/signup.html">Create an account</a></p>
+</main>
+<script type="module" src="/js/auth-page.js"></script>
+</body></html>
